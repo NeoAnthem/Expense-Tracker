@@ -2,10 +2,12 @@
 
 Track your income, expenses, and balance in style!
 
-A simple, fast, and local expense tracker web app built with HTML, CSS, and JavaScript. Keep your finances organized with real-time updates, dark/light mode, and transaction history — all stored in your browser. No backend needed!
+A simple, fast, and local expense tracker web app built with HTML, CSS, and JavaScript. 
+Keep your finances organized with real-time updates, dark/light mode, and transaction history — all stored in your browser. 
+No backend needed!
+
 
 🔗 Live Demo : https://neoanthem.github.io/Expense-Tracker/
-
 
 
 ✨ Features
@@ -27,7 +29,6 @@ A simple, fast, and local expense tracker web app built with HTML, CSS, and Java
 - Insufficient funds warning for over-expense
 
 
-
 📸 Screenshots
 ### Dark Mode
 [![Dark Mode Screenshot](./images/Dark-Mode.jpg)](./images/Dark-Mode.jpg)
@@ -36,52 +37,47 @@ A simple, fast, and local expense tracker web app built with HTML, CSS, and Java
 [![Light Mode Screenshot](./images/Light-Mode.jpg)](./images/Light-Mode.jpg)
 
 
-
-
 🛠️ Built With
 
-    HTML5 – Semantic markup and accessibility
+- HTML5 – Semantic markup and accessibility
     
-    CSS3 – Custom modern UI with Flexbox & Grid, smooth transitions
+- CSS3 – Custom modern UI with Flexbox & Grid, smooth transitions
     
-    JavaScript (ES6+) – Dynamic rendering, localStorage, event handling
+- JavaScript (ES6+) – Dynamic rendering, localStorage, event handling
     
-    FontAwesome – Icons for income/expense and UI buttons
-
+- FontAwesome – Icons for income/expense and UI buttons
 
 
 🚀 How It Works
 
-    Add a Transaction: Enter a description, amount, and type (Income or Expense)
+- Add a Transaction: Enter a description, amount, and type (Income or Expense)
     
-    Balance Updates: Your total balance, income, and expense update instantly
+- Balance Updates: Your total balance, income, and expense update instantly
     
-    Transaction History: See a list of all past transactions with timestamps
+- Transaction History: See a list of all past transactions with timestamps
     
-    Delete or Clear: Remove individual transactions or clear all data
+- Delete or Clear: Remove individual transactions or clear all data
     
-    Theme Toggle: Switch between dark & light modes; your preference is saved
-
+- Theme Toggle: Switch between dark & light modes; your preference is saved
 
 
 💡 Key Concepts Used
 
-    - DOM Manipulation (createElement, appendChild, innerHTML)
+- DOM Manipulation (createElement, appendChild, innerHTML)
     
-    - Event Handling (addEventListener, submit, click, keydown)
+- Event Handling (addEventListener, submit, click, keydown)
     
-    - LocalStorage for persistent browser data
+- LocalStorage for persistent browser data
     
-    - Array methods (filter, reverse, push)
+- Array methods (filter, reverse, push)
     
-    - ES6 features: arrow functions, destructuring, template literals
+- ES6 features: arrow functions, destructuring, template literals
     
-    - Date formatting (Date().toLocaleString())
+- Date formatting (Date().toLocaleString())
     
-    - CSS Variables & Grid/Flexbox layouts
+- CSS Variables & Grid/Flexbox layouts
     
-    - Modal popups and conditional UI rendering
-
+- Modal popups and conditional UI rendering
 
 
 📂 Project Structure
@@ -100,26 +96,25 @@ A simple, fast, and local expense tracker web app built with HTML, CSS, and Java
 
 ⚡ How to Run Locally
 
-    Clone the repository:
+- Clone the repository:
     
         git clone https://github.com/your-username/expense-tracker.git
     
-    Open index.html in your browser.
+- Open index.html in your browser.
     
-    Start tracking your income & expenses instantly.
+- Start tracking your income & expenses instantly.
 
 
 
 🌈 Future Enhancements
 
-    - Export transactions as CSV or PDF
+- Export transactions as CSV or PDF
     
-    - Add categories for expenses and income
+- Add categories for expenses and income
     
-    - Include charts and analytics
+- Include charts and analytics
     
-    - Multi-device sync with cloud
-
+- Multi-device sync with cloud
 
 
 📝 License
