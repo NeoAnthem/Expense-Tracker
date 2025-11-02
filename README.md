@@ -25,9 +25,12 @@ A simple, fast, and local expense tracker web app built with HTML, CSS, and Java
 - Insufficient funds warning for over-expense
 
 📸 Screenshots
-Light Mode
+### Dark Mode
+[![Dark Mode Screenshot](./images/dark-mode.jpg)](./images/dark-mode.jpg)
 
-Dark Mode
+### Light Mode
+[![Light Mode Screenshot](./images/light-mode.jpg)](./images/light-mode.jpg)
+
 
 🛠️ Built With
 
