@@ -26,10 +26,10 @@ A simple, fast, and local expense tracker web app built with HTML, CSS, and Java
 
 📸 Screenshots
 ### Dark Mode
-[![Dark Mode Screenshot](./images/dark-mode.jpg)](./images/dark-mode.jpg)
+[![Dark Mode Screenshot](./images/Dark-Mode.jpg)](./images/Dark-Mode.jpg)
 
 ### Light Mode
-[![Light Mode Screenshot](./images/light-mode.jpg)](./images/light-mode.jpg)
+[![Light Mode Screenshot](./images/Light-Mode.jpg)](./images/Light-Mode.jpg)
 
 
 🛠️ Built With
