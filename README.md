@@ -70,12 +70,15 @@ Theme Toggle: Switch between dark & light modes; your preference is saved
 - Modal popups and conditional UI rendering
 
 📂 Project Structure
-expense-tracker/
-├─ index.html          # Main HTML file
-├─ style.css           # Styles and themes
-├─ script.js           # JavaScript logic
-├─ favicon.png         # App icon
-└─ README.md           # Project documentation
+Expense-Tracker/
+│
+├─ README.md
+├─ index.html
+├─ style.css
+├─ script.js
+└─ assets/
+    ├─ dark-mode.jpg
+    └─ light-mode.jpg
 
 ⚡ How to Run Locally
 
