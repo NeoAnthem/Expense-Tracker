@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Expense Tracker</title>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main  class="tracker">
+    <label class="theme-toggle" id="themeToggle" title="Toggle dark / light">
+        <i id="themeIcon" class="fa-solid fa-moon"></i>
+    </label>
+
+    <header class="card header">
+        <h1>Expense <span>Tracker</span></h1>
+        <p class="subtitle">Simple, local, and fast</p>
+    </header>
+
+    <section class="card summary">
+        <div class="balance">
+        <h3>Balance</h3>
+        <p id="balanceAmount">₹0.00</p>
+        </div>
+        <div class="mini">
+        <div class="income">
+            <h4>Income</h4>
+            <p id="incomeAmount">+₹0.00</p>
+        </div>
+        <div class="expense">
+            <h4>Expense</h4>
+            <p id="expenseAmount">-₹0.00</p>
+        </div>
+        </div>
+    </section>
+
+    <section class="card add-transaction">
+        <h3>Add Transaction</h3>
+        <form id="transactionForm" autocomplete="off">
+        <div class="form-row">
+            <input id="desc" name="desc" placeholder="Description (e.g., Salary / Groceries)" required />
+        </div>
+        <div class="form-row split">
+            <input id="amount" name="amount" type="number" placeholder="Amount (positive only)" step="0.01" required />
+            <select id="type" name="type" aria-label="type">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+            </select>
+        </div>
+        <div class="form-row actions">
+            <button type="submit" class="btn primary">Add</button>
+            <button type="button" id="clearAll" class="btn ghost">Clear All</button>
+        </div>
+        </form>
+    </section>
+
+    <section class="card history">
+        <h3>History</h3>
+        <div class="transactions-wrapper">
+        <ul id="transactionList" class="transactions"></ul>
+        </div>
+    </section>
+    </main>
+
+    <!-- Popup for Insufficient Funds -->
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-content">
+        <h3 id="modalTitle">Insufficient Funds</h3>
+        <p>The withdrawal would make the balance negative. Please adjust the amount.</p>
+        <button id="modalClose" class="btn primary">OK</button>
+        </div>
+    </div>
+
+    <script src="./script.js" defer></script>
+</body>
+</html>
